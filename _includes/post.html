@@ -1,0 +1,19 @@
+<section class="post">
+	<header class="post-header">
+
+		<h2 class="post-title"><a href="{{include.post.url}}">{{ include.post.title }}</a></h2>
+
+		<p class="post-meta">
+			Par <a href="#" class="post-author">{{ include.post.author }}</a> dans
+			{% for category in include.post.categories %}
+			<a class="post-category post-category-design" href="#">{{ category }}</a>
+			{% endfor %}
+		</p>
+	</header>
+
+	<div class="post-description">
+		<p>
+			{{ include.post.content }}
+		</p>
+	</div>
+</section>

@@ -1,0 +1,23 @@
+<div class="content pure-u-1 pure-u-md-3-4">
+	<div>
+		<!-- A wrapper for all the blog posts -->
+		<div class="posts">
+			{% if include.category %}
+			  {% assign category = {{include.category}} %}
+			  {% assign posts = site.categories[{{include.category}}] %}
+			{% else %}
+			  {% assign category = 'Toutes les publications' %}
+			  {% assign posts = site.posts %}
+			{% endif %}
+			<h1 class="content-subhead">{{category}}</h1>
+
+			<!-- A single blog post -->
+			{% for cur_post in {{posts}} %}
+			  {% include post.html post=cur_post%} 
+			{% else %}
+			<h2 class="post-title">Pas de publication.</h2>
+			{% endfor %}
+		</div>
+
+	</div>
+</div>
