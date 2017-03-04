@@ -1,0 +1,9 @@
+title: Tu veux voir mon blog ?
+baseurl: ""
+url: ""
+markdown: kramdown
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
