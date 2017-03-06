@@ -1,6 +1,7 @@
 ---
 published: true
 layout: post
+author: Nicolas
 title: "Bienvenue à Passau !"
 category: Passau
 ---
