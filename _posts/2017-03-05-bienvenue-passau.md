@@ -1,12 +1,10 @@
 ---
-published: true
 layout: post
 author: Nicolas
+date: 2017-03-05 21:00:00
 title: "Bienvenue à Passau !"
 category: Passau
 ---
-#### Bienvenue à Passau !
-
 Bonjour à tous !
 
 Je suis bien arrivé à Passau ce mercredi. La route fût longue mais

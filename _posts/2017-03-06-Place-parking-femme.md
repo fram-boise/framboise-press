@@ -2,10 +2,9 @@
 layout: post
 title:  "Des places pour les femmes ?"
 author: Nicolas
-date: 2013-07-03 21:40:10
+date: 2017-03-06 21:00:00
 category: [Humeur, Passau]
 ---
-
 ![place]({{site.url}}/img/place_femme.jpg){:class="pure-img"}
 
 En me baladant dans Passau, j'ai vu à proximité de plusieurs parkings "Frauenparkplatz".
