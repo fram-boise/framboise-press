@@ -7,3 +7,6 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+isso:
+  data_isso: /isso/
+  script_src: /isso/js/embed.min.js
